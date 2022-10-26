@@ -1,0 +1,88 @@
+name: solohouse
+description: A new Flutter project.
+
+publish_to: 'Kwang-ju MBC' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+27
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  http: ^0.13.1
+  dio: ^4.0.0
+  http_parser: ^4.0.1
+  path: ^1.8.1
+  mime_type: ^1.0.0
+  flutter_tags_x: ^1.1.0
+  smooth_page_indicator: ^1.0.0+2
+  change_app_package_name: ^1.1.0
+  firebase_core: ^1.23.0
+  firebase_auth: ^3.3.20
+  firebase_messaging: ^13.0.3
+  flutter_local_notifications: ^11.0.1
+  notification_permissions: ^0.6.1
+  auth_buttons: ^3.0.0
+  flutter_smart_dialog: ^4.5.3+5
+  firebase_auth_oauth: ^1.2.0
+  uuid: ^3.0.6
+  jaguar_jwt: ^3.0.0
+  package_info_plus: ^1.4.2
+  device_info_plus: ^4.1.2
+  flutter_secure_storage: ^6.0.0
+  url_launcher: ^6.1.4
+  webview_flutter: ^3.0.4
+  image_picker: ^0.8.5+3
+  image_cropping: ^0.0.12
+  permission_handler: ^10.0.0
+  app_settings: ^4.1.8
+  cool_alert: ^1.1.0
+  flutter_quill: ^5.4.2
+  tuple: ^2.0.0
+  path_provider: ^2.0.11
+  wechat_assets_picker: ^8.0.2
+  textfield_tags: ^2.0.1
+  sn_progress_dialog: ^1.0.8
+  image: ^3.2.0
+  photo_view: ^0.14.0
+  collection: ^1.16.0
+  modal_bottom_sheet: ^2.1.0
+  tiktoklikescroller: ^0.2.3
+  highlight_text: ^1.4.1
+  share_plus: ^4.4.0
+  shared_preferences: ^2.0.15
+  chewie: ^1.3.5
+  video_player: ^2.4.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Pretendard-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Pretendard-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Pretendard-Light.otf
+          weight: 300
+
+
